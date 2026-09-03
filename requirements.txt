@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langgraph
+langgraph-prebuilt
+langchain-text-splitters
+langchain-chroma
+chromadb
+sentence-transformers
+python-dotenv
+pypdf
+tiktoken
