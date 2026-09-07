@@ -1,6 +1,5 @@
 # DOCUMENTS --> LOADERS -->CHUNKING --> EMBEDDING --> VECTOR STORES --> PROMPTS -->RETRIEVERS
 
-
 from dotenv import load_dotenv
 load_dotenv()
 from pathlib import Path
@@ -93,3 +92,4 @@ final_prompt=prompt.invoke(
 print(context)
 response=llm.invoke(final_prompt)
 print(response.content)  
+
